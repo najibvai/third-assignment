@@ -14,6 +14,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- Font Awesome Link -->
     <script src="https://kit.fontawesome.com/94218ccdb3.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'nav-primary': '#F85559',
+                    }
+                }
+            }
+        }
+    </script>
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
@@ -49,33 +61,65 @@
             </div>
         </nav>
         <!-- Banner Slider Section -->
-        <div class="carousel w-full mt-14">
+        <div class="carousel mt-12">
+            <!-- Slider 1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="/images/banner1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❮</a>
                     <a href="#slide2" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❯</a>
                 </div>
+                <div class="absolute mx-96">
+                    <div class="text-center space-y-7 mt-20">
+                        <h1 class="text-7xl text-[#ffef43] font-bold">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-base text-[#FFF] font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-none">Shop Now</button>
+                    </div>
+                </div>
             </div>
+            <!-- Slider 2 -->
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="/images/banner2.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❮</a>
+                    <a href="#slide1" class="btn btn-circle text-[#fafafa] bg-[#121212] border-none">❮</a>
                     <a href="#slide3" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❯</a>
                 </div>
+                <div class="absolute mx-96">
+                    <div class="text-center space-y-7 mt-20">
+                        <h1 class="text-7xl text-[#ffffff] font-bold">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-base text-[#FFF] font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-none">Shop Now</button>
+                    </div>
+                </div>
             </div>
+            <!-- Slider 3 -->
             <div id="slide3" class="carousel-item relative w-full">
                 <img src="/images/banner3.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❮</a>
                     <a href="#slide4" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❯</a>
                 </div>
+                <div class="absolute mx-96">
+                    <div class="text-center space-y-7 mt-20">
+                        <h1 class="text-7xl text-[#f2f847] font-bold">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-base text-[#FFF] font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-none">Shop Now</button>
+                    </div>
+                </div>
             </div>
+            <!-- Slider 4 -->
             <div id="slide4" class="carousel-item relative w-full">
                 <img src="/images/banner4.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❮</a>
+                    <a href="#slide3" class="btn btn-circle text-[#ffffff] bg-[#121212] border-none">❮</a>
                     <a href="#slide1" class="btn btn-circle text-[#FFFFFF] bg-[#121212] border-none">❯</a>
+                </div>
+                <div class="absolute mx-96">
+                    <div class="text-center space-y-7 mt-20">
+                        <h1 class="text-7xl text-[#ffff42] font-bold">Exotic tastes at your <br> doorstep</h1>
+                        <p class="text-base text-[#FFF] font-medium">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] border-none">Shop Now</button>
+                    </div>
                 </div>
             </div>
         </div>
